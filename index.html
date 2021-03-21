@@ -5,14 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>JS Starter</title>
+  <title>JavaScript Quiz</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<h1>Hello World!</h1>
+  <div class="wrapper">
+    <div class="welcome_text">
+      <!-- <h1 id="text"> Welcome to JavaScript Quizz</h1> -->
+      <form class="welcome_form" name="welcome_form"  onsubmit="submitForm(event)">
+        <input type="text" name="name">
+        <button type="submit">Start Quiz</button>
+      </form>
+    </div>
+  </div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
